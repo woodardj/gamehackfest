@@ -1,0 +1,19 @@
+// Place all the styles related to the game controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.player {
+	height: 15px;
+	width: 15px;
+	padding: 3px;
+	border: solid black 1px;
+	position: absolute;
+}
+
+.me {
+	border: solid green 2px;
+}
+
+.player span {
+	display: none;
+}

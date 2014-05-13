@@ -1,0 +1,4 @@
+<div style="position: absolute;">
+<div id="player1" class="player<%= @current_user.id == 1 ? " me" : " other" %>" style="top: <%= @p1.loc_x %>px; left: <%= @p1.loc_y %>px;"><span>1</span>%</div>
+<div id="player2" class="player<%= @current_user.id == 2 ? " me" : " other" %>" style="top: <%= @p2.loc_x %>px; left: <%= @p2.loc_y %>px;"><span>2</span>&</div>
+</div>
