@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  # root 'welcome#index'
+  root 'game#arena'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
@@ -56,4 +56,6 @@ Rails.application.routes.draw do
   #   end
   get 'login_player_1' => 'users#login_1'
   get 'login_player_2' => 'users#login_2'
+
+  post '/update/:id' => 'game#update'
 end
