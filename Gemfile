@@ -40,5 +40,3 @@ gem 'spring',        group: :development
 
 gem 'pg'
 gem 'devise'
-
-ruby "1.9.3-p194"
